@@ -1,5 +1,7 @@
 # TechSphere 2025 - Tech Conference Landing Page
 
+Live Link: https://l-t-tech-conference-project.vercel.app/
+
 ## OVERVIEW
 
 This is a modern, responsive landing page for a technology conference built using only HTML and CSS. The page features a professional blue-gray-white theme designed for a corporate tech audience.
