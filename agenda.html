@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda - TechSphere 2025</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/agenda.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">
+          <h2>TechSphere 2025</h2>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="speakers.html" class="nav-link">Speakers</a>
+          <a href="agenda.html" class="nav-link active">Agenda</a>
+          <a href="tickets.html" class="nav-link">Tickets</a>
+          <a href="venue.html" class="nav-link">Venue</a>
+          <a href="about.html" class="nav-link">About</a>
+          <button class="cta-nav-button">Register Now</button>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Conference Agenda</h1>
+        <p>
+          Three days packed with keynotes, workshops, networking sessions, and
+          cutting-edge tech discussions
+        </p>
+      </div>
+    </section>
+
+    <!-- Day Selector -->
+    <section class="day-selector">
+      <div class="container">
+        <div class="day-tabs">
+          <a href="#day1" class="day-tab active" id="day1-tab">
+            <span class="day-date">Oct 22</span>
+            <span class="day-name">Day 1</span>
+          </a>
+          <a href="#day2" class="day-tab" id="day2-tab">
+            <span class="day-date">Oct 23</span>
+            <span class="day-name">Day 2</span>
+          </a>
+          <a href="#day3" class="day-tab" id="day3-tab">
+            <span class="day-date">Oct 24</span>
+            <span class="day-name">Day 3</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agenda Content -->
+    <section class="agenda-content">
+      <div class="container">
+        <!-- Day 1 -->
+        <div class="day-content active" id="day1">
+          <h2 class="day-title">Day 1 - Opening & AI Focus</h2>
+          <div class="agenda-timeline">
+            <div class="agenda-item keynote">
+              <div class="time-slot">
+                <span class="time">09:00 - 10:00</span>
+                <span class="duration">60 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Keynote</div>
+                <h3>Opening Keynote: The Future of AI</h3>
+                <p class="speaker">
+                  Dr. Sarah Chen - Chief AI Researcher, TechCorp
+                </p>
+                <p class="venue">📍 Main Auditorium</p>
+                <p class="description">
+                  Explore the latest breakthroughs in artificial intelligence
+                  and their impact on industries worldwide.
+                </p>
+              </div>
+            </div>
+
+            <div class="agenda-item break">
+              <div class="time-slot">
+                <span class="time">10:00 - 10:30</span>
+                <span class="duration">30 min</span>
+              </div>
+              <div class="session-content">
+                <h3>Networking Break</h3>
+                <p class="venue">📍 Exhibition Hall</p>
+              </div>
+            </div>
+
+            <div class="agenda-item workshop">
+              <div class="time-slot">
+                <span class="time">10:30 - 12:00</span>
+                <span class="duration">90 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Workshop</div>
+                <h3>Hands-on Machine Learning Workshop</h3>
+                <p class="speaker">Dr. Sarah Chen & Team</p>
+                <p class="venue">📍 Tech Lab A</p>
+                <p class="description">
+                  Interactive session on building and deploying ML models using
+                  modern frameworks.
+                </p>
+              </div>
+            </div>
+
+            <div class="agenda-item break">
+              <div class="time-slot">
+                <span class="time">12:00 - 13:00</span>
+                <span class="duration">60 min</span>
+              </div>
+              <div class="session-content">
+                <h3>Lunch & Networking</h3>
+                <p class="venue">📍 Grand Ballroom</p>
+              </div>
+            </div>
+
+            <div class="agenda-item panel">
+              <div class="time-slot">
+                <span class="time">13:00 - 14:30</span>
+                <span class="duration">90 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Panel Discussion</div>
+                <h3>Ethics in AI Development</h3>
+                <p class="speaker">Panel of 4 AI Ethics Experts</p>
+                <p class="venue">📍 Conference Room B</p>
+                <p class="description">
+                  Critical discussion on responsible AI development and
+                  deployment practices.
+                </p>
+              </div>
+            </div>
+
+            <div class="agenda-item talk">
+              <div class="time-slot">
+                <span class="time">15:00 - 16:00</span>
+                <span class="duration">60 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Tech Talk</div>
+                <h3>Quantum Computing Breakthroughs</h3>
+                <p class="speaker">Dr. Lisa Wang - Quantum Computing Lead</p>
+                <p class="venue">📍 Innovation Theater</p>
+                <p class="description">
+                  Latest developments in quantum computing and practical
+                  applications.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="day-content" id="day2">
+          <h2 class="day-title">Day 2 - Cloud & Innovation</h2>
+          <div class="agenda-timeline">
+            <div class="agenda-item keynote">
+              <div class="time-slot">
+                <span class="time">09:00 - 10:00</span>
+                <span class="duration">60 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Keynote</div>
+                <h3>Cloud-Native Architecture at Scale</h3>
+                <p class="speaker">
+                  Marcus Rodriguez - CTO, CloudScale Solutions
+                </p>
+                <p class="venue">📍 Main Auditorium</p>
+                <p class="description">
+                  Building resilient, scalable applications in the cloud-native
+                  era.
+                </p>
+              </div>
+            </div>
+
+            <div class="agenda-item competition">
+              <div class="time-slot">
+                <span class="time">10:30 - 12:30</span>
+                <span class="duration">120 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Competition</div>
+                <h3>Startup Pitch Competition</h3>
+                <p class="speaker">Judged by James Kim & Venture Partners</p>
+                <p class="venue">📍 Innovation Theater</p>
+                <p class="description">
+                  10 selected startups pitch their innovative solutions to
+                  industry experts.
+                </p>
+              </div>
+            </div>
+
+            <div class="agenda-item workshop">
+              <div class="time-slot">
+                <span class="time">14:00 - 15:30</span>
+                <span class="duration">90 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Workshop</div>
+                <h3>DevOps Best Practices</h3>
+                <p class="speaker">Alex Thompson - DevOps Architect</p>
+                <p class="venue">📍 Tech Lab B</p>
+                <p class="description">
+                  Hands-on session covering CI/CD, containerization, and
+                  monitoring.
+                </p>
+              </div>
+            </div>
+
+            <div class="agenda-item expo">
+              <div class="time-slot">
+                <span class="time">16:00 - 18:00</span>
+                <span class="duration">120 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Tech Expo</div>
+                <h3>Technology Exhibition & Networking</h3>
+                <p class="venue">📍 Exhibition Hall</p>
+                <p class="description">
+                  Explore cutting-edge technologies from 50+ exhibitors and
+                  network with peers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="day-content" id="day3">
+          <h2 class="day-title">Day 3 - Security & Future</h2>
+          <div class="agenda-timeline">
+            <div class="agenda-item panel">
+              <div class="time-slot">
+                <span class="time">09:00 - 10:30</span>
+                <span class="duration">90 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Panel Discussion</div>
+                <h3>The Future of Work in Tech</h3>
+                <p class="speaker">Industry Leaders Panel</p>
+                <p class="venue">📍 Main Auditorium</p>
+                <p class="description">
+                  Discussing remote work, AI collaboration, and the evolving
+                  tech workplace.
+                </p>
+              </div>
+            </div>
+
+            <div class="agenda-item talk">
+              <div class="time-slot">
+                <span class="time">11:00 - 12:00</span>
+                <span class="duration">60 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Security Talk</div>
+                <h3>Cybersecurity in the Modern Enterprise</h3>
+                <p class="speaker">Dr. Priya Sharma - Cybersecurity Expert</p>
+                <p class="venue">📍 Conference Room A</p>
+                <p class="description">
+                  Advanced threat detection and quantum-safe security practices.
+                </p>
+              </div>
+            </div>
+
+            <div class="agenda-item keynote">
+              <div class="time-slot">
+                <span class="time">14:00 - 15:00</span>
+                <span class="duration">60 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Closing Keynote</div>
+                <h3>Technology Trends for 2026 and Beyond</h3>
+                <p class="speaker">All Featured Speakers</p>
+                <p class="venue">📍 Main Auditorium</p>
+                <p class="description">
+                  Final thoughts and predictions from our expert speakers.
+                </p>
+              </div>
+            </div>
+
+            <div class="agenda-item awards">
+              <div class="time-slot">
+                <span class="time">15:00 - 16:00</span>
+                <span class="duration">60 min</span>
+              </div>
+              <div class="session-content">
+                <div class="session-type">Awards Ceremony</div>
+                <h3>Innovation Awards & Closing</h3>
+                <p class="venue">📍 Main Auditorium</p>
+                <p class="description">
+                  Recognizing outstanding contributions to technology and
+                  innovation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Don't Miss Out on This Amazing Lineup</h2>
+        <p>
+          Secure your spot at TechSphere 2025 and be part of the future of
+          technology
+        </p>
+        <button class="cta-button primary">Register Now</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>TechSphere 2025</h3>
+            <p>
+              The premier technology conference bringing together innovators,
+              entrepreneurs, and tech leaders from around the world.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link">📘</a>
+              <a href="#" class="social-link">🐦</a>
+              <a href="#" class="social-link">💼</a>
+              <a href="#" class="social-link">📷</a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="speakers.html">Speakers</a></li>
+              <li><a href="agenda.html">Agenda</a></li>
+              <li><a href="tickets.html">Tickets</a></li>
+              <li><a href="venue.html">Venue</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#terms">Terms & Conditions</a></li>
+              <li><a href="#privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <div class="contact-info">
+              <p>📧 info@techsphere2025.com</p>
+              <p>📱 +91 98765 43210</p>
+              <p>📍 Bangalore, India</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 TechSphere. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,295 @@
+/* Venue Sections */
+.venue-overview {
+  padding: 80px 0;
+  background: white;
+}
+
+.venue-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.venue-info h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #1e293b 0%, #475569 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.venue-address,
+.venue-features {
+  margin-bottom: 2rem;
+}
+
+.venue-address h3,
+.venue-features h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.venue-address p {
+  font-size: 1.1rem;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.venue-features ul {
+  list-style: none;
+}
+
+.venue-features li {
+  padding: 0.5rem 0;
+  color: #64748b;
+}
+
+.venue-description p {
+  color: #64748b;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.main-venue-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.main-venue-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 40px rgba(37, 99, 235, 0.2);
+}
+
+.venue-facilities {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.facility-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.facility-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(37, 99, 235, 0.15);
+}
+
+.facility-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.getting-there {
+  padding: 80px 0;
+  background: white;
+}
+
+.transport-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.transport-card {
+  background: linear-gradient(145deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.1);
+}
+
+.transport-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.transport-card ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.transport-card li {
+  padding: 0.25rem 0;
+  color: #64748b;
+}
+
+.accommodation {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+}
+
+.hotels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hotel-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.hotel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 50px rgba(37, 99, 235, 0.2);
+}
+
+.hotel-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hotel-info {
+  padding: 1.5rem;
+}
+
+.hotel-rating {
+  margin: 0.5rem 0;
+}
+
+.hotel-distance,
+.hotel-price {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin: 0.25rem 0;
+}
+
+.hotel-price {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.hotel-button {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+
+.hotel-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(29, 78, 216, 0.4);
+}
+
+.hotel-note {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.local-attractions {
+  padding: 80px 0;
+  background: white;
+}
+
+.attractions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.attraction-card {
+  background: linear-gradient(145deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.1);
+}
+
+.attraction-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.attraction-distance {
+  display: block;
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.venue-contact {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.contact-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.1);
+}
+
+.contact-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Venue Page Responsive Styles */
+@media (max-width: 768px) {
+  .venue-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .facilities-grid,
+  .transport-grid,
+  .hotels-grid,
+  .attractions-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .venue-overview,
+  .venue-facilities,
+  .getting-there,
+  .accommodation,
+  .local-attractions {
+    padding: 60px 0;
+  }
+
+  .facility-card,
+  .transport-card,
+  .attraction-card {
+    padding: 1.5rem;
+  }
+}

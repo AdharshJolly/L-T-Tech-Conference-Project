@@ -1,0 +1,272 @@
+/* About Sections */
+.about-story {
+  padding: 80px 0;
+  background: white;
+}
+
+.story-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.story-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #1e293b 0%, #475569 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.story-text p {
+  color: #64748b;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.story-features {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.story-features li {
+  padding: 0.5rem 0;
+  color: #64748b;
+}
+
+.about-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.15);
+}
+
+.statistics {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.stat-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15);
+}
+
+.stat-card .stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card .stat-label {
+  color: #64748b;
+  font-weight: 500;
+}
+
+.team {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.team-member {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.1);
+  transition: all 0.3s ease-in-out;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(37, 99, 235, 0.15);
+}
+
+.team-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  border: 3px solid #3b82f6;
+}
+
+.team-role {
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.team-bio {
+  color: #64748b;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.sponsors {
+  padding: 80px 0;
+  background: white;
+}
+
+.sponsor-tiers {
+  margin-bottom: 3rem;
+}
+
+.sponsor-tier {
+  margin-bottom: 3rem;
+}
+
+.sponsor-tier h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1e293b;
+}
+
+.sponsor-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.sponsor-logos.platinum .sponsor-logo {
+  width: 200px;
+  height: 80px;
+}
+
+.sponsor-logos.gold .sponsor-logo {
+  width: 150px;
+  height: 60px;
+}
+
+.sponsor-logos.community .sponsor-logo {
+  width: 120px;
+  height: 50px;
+}
+
+.sponsor-logo {
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sponsor-logo:hover {
+  transform: scale(1.05);
+}
+
+.sponsor-cta {
+  text-align: center;
+}
+
+.values {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.value-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.1);
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.value-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contact-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.contact-section .contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.contact-details {
+  margin-bottom: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  margin-top: 0.25rem;
+}
+
+.contact-form {
+  background: linear-gradient(145deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+/* About Page Responsive Styles */
+@media (max-width: 768px) {
+  .story-content,
+  .contact-section .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .team-grid,
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-story,
+  .statistics,
+  .team,
+  .sponsors,
+  .values,
+  .contact-section {
+    padding: 60px 0;
+  }
+
+  .team-member,
+  .value-card {
+    padding: 1.5rem;
+  }
+}
